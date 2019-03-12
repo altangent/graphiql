@@ -1,6 +1,6 @@
 {
-  "name": "graphiql",
-  "version": "0.13.0",
+  "name": "@altangent/graphiql",
+  "version": "0.14.0",
   "description": "An graphical interactive in-browser GraphQL IDE.",
   "contributors": [
     "Hyohyeon Jeong <asiandrummer@fb.com>",
@@ -38,8 +38,6 @@
     "lint": "eslint src",
     "lint-check": "eslint --print-config .eslintrc | eslint-config-prettier-check",
     "precommit": "npm run testonly && lint-staged",
-    "prepublish": ". ./resources/prepublish.sh",
-    "preversion": ". ./resources/checkgit.sh && npm test",
     "test": "npm run lint && npm run check && npm run testonly && npm run build",
     "testonly": "babel-node ./node_modules/.bin/_mocha $npm_package_options_mocha"
   },
