@@ -1,6 +1,6 @@
 {
   "name": "@altangent/graphiql",
-  "version": "0.13.0",
+  "version": "0.14.4",
   "description": "An graphical interactive in-browser GraphQL IDE.",
   "contributors": [
     "Hyohyeon Jeong <asiandrummer@fb.com>",
